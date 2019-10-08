@@ -7,7 +7,7 @@ def line(array)
     list=[]
     array.each_with_index do |name,index|
       list<< "#{index+1}. #{name}"
-      p "The line is currently: "+ list.join(" ")
+      puts "The line is currently: "+ list.join(" ")
     end
   end
 end
