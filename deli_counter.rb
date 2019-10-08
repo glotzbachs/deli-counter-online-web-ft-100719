@@ -11,3 +11,12 @@ def line(array)
     puts "The line is currently: "+ list.join(" ")
   end
 end
+
+def take_a_number(array=katz_deli,join)
+  array<<"#{join}"
+  
+end
+
+def now_serving()
+  
+end
