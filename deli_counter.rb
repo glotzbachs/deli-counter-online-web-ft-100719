@@ -14,7 +14,7 @@ end
 
 def take_a_number(array=katz_deli,join)
   array<<"#{join}"
-  
+  puts "Welcome, #{join}. You are number #{array[-1].index+1} in line."
 end
 
 def now_serving()
