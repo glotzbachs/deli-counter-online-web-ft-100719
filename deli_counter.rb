@@ -4,9 +4,10 @@ def line(array)
   if array.length==0
     puts "The line is currently empty."
   else 
-    puts "The line is currently: "+
+    list=[]
     array.each_with_index do |name,index|
-      "#{index+1}. #{name}"
+      list<< "#{index+1}. #{name}"
+      puts "The line is currently: "+ list.join(" ")
     end
   end
 end
